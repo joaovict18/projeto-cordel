@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); 
+
+* {
+    margin: 0;
+    font-size: 1em;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 18vw;
+    position: relative;
+}
+
+#cabeçalho {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+}
+
+header h1 {
+    font-family: 'Passion One', cursive;
+    font-weight: normal;
+    font-size: 8vw;
+    padding-top: 50px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section p {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+}
+
+.seções {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+}
+
+#backg1 {
+    color: white;
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+#fundo1 {
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 41vw;
+}
+
+#terceiraseção {
+    padding-bottom: 80px;
+}
+
+.fundo2 {
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 42vw;
+    color: white;
+}
+
+#backg2 {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+#penultimoparágrafo {
+    padding-bottom: 80px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
