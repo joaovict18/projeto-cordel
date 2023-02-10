@@ -82,7 +82,6 @@ section p {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
